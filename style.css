@@ -1,0 +1,129 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 18px;
+    scroll-behaviour: smooth;
+}
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f6f8f3;
+    colour: #263238;
+    line-height: 1.7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.site-header {
+    background: #e4f2ea;
+    border-bottom: 1px solid #c2dfce;
+    padding-top: 1.5rem;
+    padding-bottom: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+.site-title {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    colour: #236b4a;
+}
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: flex-start;
+}
+.site-nav {
+    display: flex;
+    gap: 1.5rem;
+}
+.nav-link {
+    text-decoration: none;
+    colour: #236b4a;
+    font-weight: 500;
+    transition: colour 0.2s;
+    font-size: 1rem;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0.1rem;
+}
+.nav-link.active, .nav-link:hover, .nav-link:focus {
+    colour: #1f4c32;
+    border-bottom: 2px solid #6fcf97;
+}
+.site-description {
+    margin-bottom: 2rem;
+    font-size: 1.15rem;
+}
+.posts-section h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    colour: #236b4a;
+}
+.posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+.post-placeholder, .posts-list article {
+    background: #fff;
+    border: 1px solid #d9ead3;
+    border-radius: 0.6rem;
+    padding: 1.2rem 1.1rem;
+    box-shadow: 0 2px 8px rgba(120,160,120,0.07);
+    transition: box-shadow 0.2s;
+}
+.post-placeholder:hover, .posts-list article:hover {
+    box-shadow: 0 4px 16px rgba(80,120,80,0.11);
+}
+.posts-list h3 {
+    font-size: 1.13rem;
+    margin-bottom: 0.5rem;
+    colour: #236b4a;
+}
+.post-meta {
+    font-size: 0.95rem;
+    colour: #6b7c6b;
+    margin-top: 0.8rem;
+}
+.site-footer {
+    background: #e4f2ea;
+    border-top: 1px solid #c2dfce;
+    margin-top: auto;
+    padding: 1.1rem 0 0.8rem 0;
+    text-align: centre;
+    font-size: 1rem;
+    colour: #4e6350;
+}
+@media (min-width: 600px) {
+    .nav-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: centre;
+    }
+    .site-title {
+        font-size: 2.3rem;
+    }
+}
+@media (max-width: 480px) {
+    html {
+        font-size: 16px;
+    }
+    .site-title {
+        font-size: 1.5rem;
+    }
+    .posts-list {
+        gap: 1rem;
+    }
+    .post-placeholder, .posts-list article {
+        padding: 0.9rem 0.6rem;
+    }
+}

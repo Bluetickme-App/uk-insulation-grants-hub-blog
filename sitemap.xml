@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://Bluetickme-App.github.io/uk-insulation-grants-hub-blog/index.html</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://Bluetickme-App.github.io/uk-insulation-grants-hub-blog/about.html</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -28,6 +28,11 @@
   <url>
     <loc>https://Bluetickme-App.github.io/uk-insulation-grants-hub-blog/posts/2026-04-16-the-rise-of-automation-how-technology-is-transforming-workflow-efficiency.html</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://Bluetickme-App.github.io/uk-insulation-grants-hub-blog/posts/2026-04-19-lead-generation-technology-powering-smarter-growth-strategies-in-2024.html</loc>
+    <lastmod>2026-04-19</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>
